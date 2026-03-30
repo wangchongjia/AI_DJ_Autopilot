@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+.env
+*.db
+*.db-wal
+*.db-shm
+
+# Local audio library (do not commit copyrighted tracks)
+Songs/**/*.mp3
+Songs/**/*.wav
+Songs/**/*.flac
+Songs/**/*.m4a
+
+# Optional: large derived artifacts (uncomment if you prefer not to version them)
+# data/modeling/*.joblib

@@ -1,0 +1,50 @@
+{
+  "generated_at_utc": "2026-03-30T22:50:29.780974+00:00",
+  "n_rows_usable": 89,
+  "n_train": 71,
+  "n_val": 18,
+  "class_balance_total": {
+    "count_0": 13.0,
+    "count_1": 76.0,
+    "ratio_0": 0.14606741573033707,
+    "ratio_1": 0.8539325842696629
+  },
+  "class_balance_train": {
+    "count_0": 10.0,
+    "count_1": 61.0,
+    "ratio_0": 0.14084507042253522,
+    "ratio_1": 0.8591549295774648
+  },
+  "class_balance_val": {
+    "count_0": 3.0,
+    "count_1": 15.0,
+    "ratio_0": 0.16666666666666666,
+    "ratio_1": 0.8333333333333334
+  },
+  "accuracy": 0.7222222222222222,
+  "precision": 0.8571428571428571,
+  "recall": 0.8,
+  "f1": 0.8275862068965517,
+  "confusion_matrix": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      12
+    ]
+  ],
+  "feature_columns": [
+    "bpm_diff",
+    "energy_diff",
+    "loudness_diff",
+    "spectral_centroid_diff",
+    "zero_crossing_rate_diff",
+    "duration_diff",
+    "same_artist",
+    "key_match",
+    "harmonic_compatibility"
+  ],
+  "model": "LogisticRegression(class_weight='balanced')"
+}
